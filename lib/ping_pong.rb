@@ -1,10 +1,10 @@
 class Integer
 
   def count_up
-    x = 150
+    x = 0
     n = 0
     count = []
-    until ( n >= x )
+    until ( n >= self )
       n = n + 1
       if (n % 5 === 0 && n % 3 === 0)
         count.push("ping pong")
